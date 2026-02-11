@@ -1,0 +1,123 @@
+(footprint "T_Splitter"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at -3.01 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "566387f4-8ad1-426d-9327-9f0461b120b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "T_Splitter"
+		(at 0 17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df6f85ef-ca58-4e99-b84c-b9715664a23a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc8c2d2f-5cc9-4a88-8846-2c2bc74f7932")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6b2782b-081a-4b54-a9f1-7b1f02a848bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.65 0)
+		(end 3.65 0)
+		(stroke
+			(width 0.7)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "d25bd490-08e9-4a41-870a-e7f399416ae4")
+	)
+	(fp_poly
+		(pts
+			(xy -4.04 0) (xy -4.18 -0.14) (xy -4.18 -0.5) (xy -3.8 -0.5) (xy -3.65 -0.35) (xy -3.65 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "d24a885c-b7f9-4a81-aa0e-6772ca81c30b")
+	)
+	(fp_poly
+		(pts
+			(xy -4.04 0) (xy -4.18 0.14) (xy -4.18 0.5) (xy -3.8 0.5) (xy -3.65 0.35) (xy -3.65 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "7ea6557f-982d-4d83-b97d-054d6572ffd2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 18.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2d5b098-212a-4163-b321-257f2460203a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.3 0 90)
+		(size 0.381 1)
+		(layers "F.Cu")
+		(uuid "9f897778-78c0-4ae5-8989-1e3944f8c5da")
+	)
+	(pad "2" smd rect
+		(at -3.99 1.25 180)
+		(size 0.38 1.5)
+		(layers "F.Cu")
+		(uuid "76fde72c-ef05-4b4a-bd92-5e8401f9c215")
+	)
+	(pad "3" smd rect
+		(at -3.99 -1.25 180)
+		(size 0.38 1.5)
+		(layers "F.Cu")
+		(uuid "a54930e5-2620-461a-ae7b-89e066cba84c")
+	)
+	(embedded_fonts no)
+)

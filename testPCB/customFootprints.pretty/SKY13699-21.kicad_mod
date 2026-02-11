@@ -1,0 +1,224 @@
+(footprint "SKY13699-21"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas RUN0010A WQFN, 10 Pin (https://www.ti.com/lit/ds/symlink/tmp461.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Texas WQFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.33 0)
+		(layer "F.SilkS")
+		(uuid "a282b6e3-97c6-4219-b92f-4e9d7ec06ad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SKY13699-21"
+		(at 0 2.33 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92341756-6c98-41ba-b323-d42a38c9c750")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89a3131-dc1f-4d32-8e27-2d7053b8e06a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efe970b0-9b46-4847-9f1b-3d76e6990bc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.596877 -1.135)
+		(end -0.385 -1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93064777-c181-4d74-954d-5e494835d07b")
+	)
+	(fp_line
+		(start -0.3175 1.135)
+		(end -0.75 1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3df55d5-1d6c-4f2a-bb56-eea1edecf8bc")
+	)
+	(fp_line
+		(start 0.385 -1.135)
+		(end 0.8 -1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35f8bffa-edc7-4f39-b699-22439022e15a")
+	)
+	(fp_line
+		(start 0.75 1.135)
+		(end 0.3375 1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6829108e-ae16-454f-a181-36d8d956bcce")
+	)
+	(fp_poly
+		(pts
+			(xy -0.89 -1.14) (xy -1.13 -1.47) (xy -0.65 -1.47)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "409a0873-bd80-4fa8-b6d3-3caf35d57b0e")
+	)
+	(fp_rect
+		(start -1.025 -1.2)
+		(end 1.025 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "42c3e930-2a8f-4b87-bf20-d62757d5aebf")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -1) (xy 1 -1) (xy 1 1) (xy -1 1) (xy -1 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d9291497-d61c-4daa-a017-f624e5713ad6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "840ecc9f-6a99-4650-8848-7b6465e0f7b3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5125 -0.7125 90)
+		(size 0.425 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "895b60c5-e4de-48fc-b283-507d6a4834d3")
+	)
+	(pad "2" smd rect
+		(at -0.575 -0.2 180)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "98d421cc-e700-49fe-86bb-a1eabd0f6a0e")
+	)
+	(pad "3" smd rect
+		(at -0.575 0.2 180)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "8e68166f-c4ab-4178-a295-4ba978708b1c")
+	)
+	(pad "4" smd rect
+		(at -0.5125 0.7125 90)
+		(size 0.425 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "2c00fda1-247b-481f-be06-906de57822df")
+	)
+	(pad "5" smd rect
+		(at 0 0.775 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "dfd5765c-f744-49cb-8fba-6924447bb521")
+	)
+	(pad "6" smd rect
+		(at 0.5125 0.7125 90)
+		(size 0.425 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "7767bc3c-d556-4dc4-b934-2028cbfe23ee")
+	)
+	(pad "7" smd rect
+		(at 0.575 0.2 180)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "c137990d-1fa2-49ba-a5d5-6fdf36551b69")
+	)
+	(pad "8" smd rect
+		(at 0.575 -0.2 180)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "2fbfadd0-8c63-4427-b097-b35bc8d34ac1")
+	)
+	(pad "9" smd rect
+		(at 0.5125 -0.7125 90)
+		(size 0.425 0.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "77a7626b-4c59-42a1-8b90-cf6bb49f600a")
+	)
+	(pad "10" smd rect
+		(at 0 -0.775 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "6ef01592-b0d5-47ed-be9d-5791fd3cfe20")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RUN0010A_WQFN-10_2x2mm_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

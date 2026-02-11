@@ -1,0 +1,72 @@
+(footprint "Banana Jack"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.857 0)
+		(layer "F.SilkS")
+		(uuid "016b6a71-2f69-442c-be84-dbd280681a23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Banana Jack"
+		(at 0 6.857 0)
+		(layer "F.Fab")
+		(uuid "04973f9f-723c-4168-bfa2-05f37c4652be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5f436a5-7bf6-4a69-9659-daba1e59518e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc409c24-c553-4615-aa0a-b56f56dcc48a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.03)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3c3de2ad-102d-4dd5-b195-6a87e12b778c")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 5 7)
+		(drill oval 1.2 5.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55ab7c51-cd67-443e-9796-66130a604cbc")
+	)
+	(embedded_fonts no)
+)
