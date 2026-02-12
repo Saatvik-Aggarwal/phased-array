@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(uuid "4763920c-6b8e-4c52-a58e-e9476525d318")
 	)
 	(fp_rect
