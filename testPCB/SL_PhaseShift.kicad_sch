@@ -616,7 +616,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V1 High = ANT1 to RX, ANT2 to TX\nV1 Low = ANT1 to TX, ANT2 to RX\nV1 = V2'\n"
+	(text "Top path is long path\n"
+		(exclude_from_sim no)
+		(at 81.026 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e921786-63bd-43e7-8fd3-603463e05b26")
+	)
+	(text "V1 High = RF1 to RF4, RF2 to RF3\nV1 Low = RF1 to RF3, RF2 to RF4\n"
 		(exclude_from_sim no)
 		(at 63.246 106.934 0)
 		(effects
@@ -1673,6 +1683,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a78558f-8fe0-436d-939d-099f3557a5d9")
+	)
+	(label "Bottom path is short path"
+		(at 72.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dab7230-0480-4da4-a2bf-18c09fdffccb")
 	)
 	(label "C2"
 		(at 101.6 59.69 0)

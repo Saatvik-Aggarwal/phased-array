@@ -1677,7 +1677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68p"
+		(property "Value" "100p"
 			(at 107.95 66.0335 0)
 			(effects
 				(font
@@ -1686,7 +1686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 64.77 0)
 			(effects
 				(font
