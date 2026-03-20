@@ -190,7 +190,9 @@
         0.0,
         0.15,
         0.2,
-        0.381
+        0.381,
+        0.5,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -503,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerberOutput/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -1536,131 +1536,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VPP"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VPP"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VPP\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VPP_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VPP_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Can use single-ended LO\n\n"
 		(exclude_from_sim no)
@@ -1689,12 +1564,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0507b95a-3c39-4af9-baad-f0c40d4d338d")
-	)
-	(junction
-		(at 113.03 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ce391ba-5e8c-452f-bd54-6b883ed4031d")
 	)
 	(junction
 		(at 213.36 85.09)
@@ -2844,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 121.92) (xy 250.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd873482-3bf4-46d2-84f0-0450614712f8")
+	)
+	(wire
+		(pts
 			(xy 142.24 119.38) (xy 139.7 119.38)
 		)
 		(stroke
@@ -2892,6 +2771,17 @@
 		)
 		(uuid "e7458620-c318-4bc4-8e01-95c1e09ee529")
 	)
+	(hierarchical_label "LocalVCC"
+		(shape input)
+		(at 250.19 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14d9ff91-6934-4c77-bbe7-4d26951c1f59")
+	)
 	(hierarchical_label "Q_Phase"
 		(shape input)
 		(at 81.28 100.33 180)
@@ -2902,6 +2792,28 @@
 			(justify right)
 		)
 		(uuid "33088575-44cf-4775-91e3-59dad53649f2")
+	)
+	(hierarchical_label "LocalVCC"
+		(shape input)
+		(at 43.18 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374c0755-80b2-407a-8b15-f8105e07ca84")
+	)
+	(hierarchical_label "LocalVCC"
+		(shape input)
+		(at 116.84 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42c7349c-a692-4dd1-9044-b98ed4d72c13")
 	)
 	(hierarchical_label "In_Phase"
 		(shape input)
@@ -2924,6 +2836,17 @@
 			(justify right)
 		)
 		(uuid "6232eb43-10d4-43e5-a32e-97ce5f54dd8a")
+	)
+	(hierarchical_label "LocalVCC"
+		(shape input)
+		(at 132.08 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c57aa6f6-60f7-4b2e-8d8b-ca4975ca7eb3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4382,84 +4305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VPP")
-		(at 132.08 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8302809f-5d24-4934-8922-a14f339b2499")
-		(property "Reference" "#PWR043"
-			(at 132.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 132.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06b2ea4e-a426-40e2-9411-86eb860cb3d2")
-		)
-		(instances
-			(project "4phaseshift"
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/0761c0aa-3b3e-46c8-a98d-e63cbedea3c2"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/3ad94b1c-09d6-4af4-bf9a-a8e5307255e0"
-					(reference "#PWR092")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/770cf7ea-21e5-4e4f-888f-d4df42e95689"
-					(reference "#PWR074")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 88.9 100.33 90)
 		(unit 1)
@@ -5055,84 +4900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VPP")
-		(at 43.18 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b57aa6bc-a1c2-4280-97b6-c1f0d8b2d336")
-		(property "Reference" "#PWR010"
-			(at 43.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 43.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 43.18 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9e4c86d-8536-4a44-ac78-e75e4c6dacb7")
-		)
-		(instances
-			(project "4phaseshift"
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/0761c0aa-3b3e-46c8-a98d-e63cbedea3c2"
-					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/3ad94b1c-09d6-4af4-bf9a-a8e5307255e0"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/770cf7ea-21e5-4e4f-888f-d4df42e95689"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 86.36 73.66 90)
 		(unit 1)
@@ -5285,84 +5052,6 @@
 				)
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VPP")
-		(at 113.03 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d23e1476-fa80-458d-bfa7-52e367efdd63")
-		(property "Reference" "#PWR041"
-			(at 113.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 113.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "628498dd-f5ad-402a-9efc-5d26a88da860")
-		)
-		(instances
-			(project "4phaseshift"
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/0761c0aa-3b3e-46c8-a98d-e63cbedea3c2"
-					(reference "#PWR054")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/3ad94b1c-09d6-4af4-bf9a-a8e5307255e0"
-					(reference "#PWR090")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/770cf7ea-21e5-4e4f-888f-d4df42e95689"
-					(reference "#PWR072")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5902,6 +5591,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LocalVCC" input
+			(at 250.19 124.46 90)
+			(uuid "fdbd4433-992f-4e56-bf04-9b02527f55f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

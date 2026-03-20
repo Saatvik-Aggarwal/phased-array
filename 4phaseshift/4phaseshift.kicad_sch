@@ -2416,6 +2416,18 @@
 		(uuid "0861846a-a8d6-4023-abfd-662e94c219e1")
 	)
 	(junction
+		(at 143.51 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a9174a2-6acc-4922-a705-9cae14d9e1b0")
+	)
+	(junction
+		(at 128.27 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230338d7-8468-4c43-af68-f7d3fae35cf7")
+	)
+	(junction
 		(at 86.36 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2482,6 +2494,12 @@
 		(uuid "b37958a9-ccdf-465e-af76-6b3bca1885da")
 	)
 	(junction
+		(at 165.1 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c084143b-b1eb-4c66-8ef7-795e16e785e1")
+	)
+	(junction
 		(at 137.16 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2494,10 +2512,22 @@
 		(uuid "ca57b40a-c577-4457-ad8b-4b48eaca39e0")
 	)
 	(junction
+		(at 154.94 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f27fdd-a778-4ca1-8b6f-164022e559a7")
+	)
+	(junction
 		(at 41.91 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3f67d8-64a3-4b45-b763-06c670fbf3c2")
+	)
+	(junction
+		(at 130.81 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee122a62-8445-48fe-94ce-4aca6c7e89aa")
 	)
 	(junction
 		(at 246.38 140.97)
@@ -2623,6 +2653,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 67.31) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f57a08b-08e1-4370-9da4-f3282f810211")
+	)
+	(wire
+		(pts
 			(xy 146.05 49.53) (xy 146.05 57.15)
 		)
 		(stroke
@@ -2690,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "1e9cece2-320f-4b0c-bbc4-c7cd8d7874a6")
+	)
+	(wire
+		(pts
+			(xy 143.51 168.91) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcb1ad2-f0e2-44e6-a296-32e786c5252b")
 	)
 	(wire
 		(pts
@@ -2783,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 31.75) (xy 127 34.29)
+			(xy 127 27.94) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2883,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a90c60a-68eb-4edc-ba9b-7d2637d97a10")
+	)
+	(wire
+		(pts
 			(xy 242.57 92.71) (xy 247.65 92.71)
 		)
 		(stroke
@@ -2943,6 +3003,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 180.34) (xy 143.51 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dff857d-82ae-4325-b5cb-dc36de26ca49")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 154.94 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e575c50-b47c-49be-b4e5-c16a2da8a734")
+	)
+	(wire
+		(pts
 			(xy 204.47 123.19) (xy 204.47 129.54)
 		)
 		(stroke
@@ -2950,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "4f19ddba-322e-46a5-9285-6fc1bf895b61")
+	)
+	(wire
+		(pts
+			(xy 271.78 58.42) (xy 271.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5148043a-dddf-4aea-af67-883c8265a667")
 	)
 	(wire
 		(pts
@@ -2990,6 +3080,26 @@
 			(type default)
 		)
 		(uuid "587c5a68-5071-43ad-bd97-484fd49687ea")
+	)
+	(wire
+		(pts
+			(xy 128.27 170.18) (xy 128.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5891654f-9d00-49e4-ad62-494c47c941f9")
+	)
+	(wire
+		(pts
+			(xy 128.27 161.29) (xy 128.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5893889d-ca14-41f1-8d4d-55bca7debe4c")
 	)
 	(wire
 		(pts
@@ -3223,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 168.91) (xy 143.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe67122-f361-4a57-b9d5-c26ed16714c2")
+	)
+	(wire
+		(pts
 			(xy 76.2 156.21) (xy 66.04 156.21)
 		)
 		(stroke
@@ -3230,6 +3350,16 @@
 			(type default)
 		)
 		(uuid "8018132c-6aec-426b-8b31-2d96c404f0ae")
+	)
+	(wire
+		(pts
+			(xy 128.27 161.29) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870def40-521d-4c3d-aef8-14faf5209d7e")
 	)
 	(wire
 		(pts
@@ -3280,6 +3410,16 @@
 			(type default)
 		)
 		(uuid "93b2c779-c596-4280-8066-a7a6cbf1dab6")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 175.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97689693-43fa-4b90-b007-25aabe70b9ed")
 	)
 	(wire
 		(pts
@@ -3340,6 +3480,46 @@
 			(type default)
 		)
 		(uuid "9fff23de-ad1a-4abf-a284-1aa2fdebb546")
+	)
+	(wire
+		(pts
+			(xy 165.1 170.18) (xy 165.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0adcf4d-33d9-48b3-8539-ca8fb23aa68e")
+	)
+	(wire
+		(pts
+			(xy 149.86 27.94) (xy 128.27 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3563665-3549-44f3-a80f-0946f6d37795")
+	)
+	(wire
+		(pts
+			(xy 165.1 158.75) (xy 165.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3aa8d98-7ad6-47b4-8f38-d083a08a604f")
+	)
+	(wire
+		(pts
+			(xy 175.26 161.29) (xy 175.26 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47843f4-f5f1-41e1-9887-1cd8a4ada9a2")
 	)
 	(wire
 		(pts
@@ -3593,6 +3773,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 160.02) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e02332-4468-4e15-a3ba-7477cc9d169d")
+	)
+	(wire
+		(pts
 			(xy 132.08 29.21) (xy 132.08 34.29)
 		)
 		(stroke
@@ -3683,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 161.29) (xy 151.13 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5aec257-198f-4578-b0c3-d5c51058fe5e")
+	)
+	(wire
+		(pts
 			(xy 209.55 153.67) (xy 247.65 153.67)
 		)
 		(stroke
@@ -3700,6 +3900,16 @@
 			(type default)
 		)
 		(uuid "f74030df-aeca-4e03-9ba5-77eb28c846a8")
+	)
+	(wire
+		(pts
+			(xy 130.81 161.29) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3a3bfb-98df-48da-b76a-5f32b7aa0a0e")
 	)
 	(wire
 		(pts
@@ -3730,6 +3940,66 @@
 			(type default)
 		)
 		(uuid "fc67f631-bf93-44ef-86cd-4413883eb319")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 165.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6c969c-a826-4d92-93f5-74c3f98efa8c")
+	)
+	(wire
+		(pts
+			(xy 175.26 170.18) (xy 175.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8a6fa4-3ae0-4f10-938a-0be3321a23b4")
+	)
+	(label "SDA"
+		(at 170.18 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05132fe9-daf8-4572-a85c-71d161c2df0a")
+	)
+	(label "SCL"
+		(at 170.18 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea24703-1014-49be-876f-949e8ef12c8b")
+	)
+	(label "LDAC"
+		(at 170.18 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf967c4-a9ee-4299-a122-c23d95bc98f5")
+	)
+	(label "SDA"
+		(at 170.18 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efc4f9b1-f7ff-4a11-a17b-da679e266f45")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3944,6 +4214,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 165.1 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0624e413-4b20-4e1d-91bb-737739f1e4d2")
+		(property "Reference" "#PWR053"
+			(at 165.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 165.1 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba71e83-8e70-4386-8340-c683fb99036b")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 128.27 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b093391-2ad8-4de0-ada1-131f648971e5")
+		(property "Reference" "#PWR041"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 128.27 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7c882f-43e0-44c3-b98b-75bc1d23d03c")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 57.15 0)
 		(unit 1)
@@ -4011,6 +4411,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253d8a4e-86aa-4751-b99c-522eb32fa181")
+		(property "Reference" "C6"
+			(at 130.81 166.3635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 130.81 168.9035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f4c3f12-4b86-4c5e-a5f1-3a855c97430d")
+		)
+		(pin "1"
+			(uuid "a4187d84-b1f7-442d-8833-23a3ba25c859")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 179.07 0)
 		(mirror y)
@@ -4072,6 +4542,71 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 273.05 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "298fa352-91e3-488b-b1b3-7b2f0b47b065")
+		(property "Reference" "#PWR028"
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 273.05 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 273.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7abe9393-68c7-4fc2-a782-c246cddb5f64")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4210,6 +4745,73 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30395591-81f3-43f3-932f-cc1a726414d7")
+		(property "Reference" "#PWR064"
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04cdeff4-6288-45a2-aeee-8521f9db08f9")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4427,6 +5029,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412cb5bf-7010-4828-8742-ee4980d7a14d")
+		(property "Reference" "#PWR070"
+			(at 175.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bcecf9c-7020-4271-8fd8-513f7617e777")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 107.95 173.99 180)
 		(unit 1)
@@ -4557,6 +5226,139 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VS")
+		(at 130.81 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49485e01-a220-40c7-b035-39d242bff1db")
+		(property "Reference" "#PWR040"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VS"
+			(at 130.81 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VS\""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0064b86-d2cc-4933-8004-e96df2ba9b57")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b400a61-1b40-4bac-83bf-95b56ca5ec4e")
+		(property "Reference" "#PWR052"
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d7632d-f927-41f6-871b-174e4cbde952")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4828,6 +5630,73 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5afa89b7-8000-45c9-b76a-4c276280c0cd")
+		(property "Reference" "#PWR039"
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6975d07e-57a0-4741-8494-0309a5f638ec")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5243,6 +6112,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 124.46 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89527e92-7b34-4250-9604-8e3023f5ef75")
+		(property "Reference" "#PWR012"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 124.46 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dec491fc-e4c3-49ee-b3a5-d5b73ecb1f22")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 179.07 0)
 		(unit 1)
@@ -5375,16 +6309,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 127 31.75 0)
+		(lib_id "Device:R_US")
+		(at 143.51 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9bb91eb2-a862-4b96-ac3d-38ac20ddfd62")
-		(property "Reference" "#PWR012"
-			(at 127 35.56 0)
+		(fields_autoplaced yes)
+		(uuid "9f28a4d1-08f3-44a8-8d5b-ffe1cdb448f0")
+		(property "Reference" "R23"
+			(at 146.05 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "300"
+			(at 146.05 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 144.526 176.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,16 +6345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 127 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 31.75 0)
+		(property "Datasheet" "~"
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,8 +6354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 31.75 0)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,22 +6363,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 127 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "3e10a1f0-b967-4adb-a6a4-a2c41a15255a")
 		)
 		(pin "1"
-			(uuid "a3291588-9645-4caf-9b68-6b7ab973f32e")
+			(uuid "d1e9026d-bfca-4f7f-9e72-b2bda88b22ae")
 		)
 		(instances
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
-					(reference "#PWR012")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5501,6 +6440,71 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a234f103-e05e-4f33-836a-64b6d512c8ff")
+		(property "Reference" "#PWR024"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2"
+			(at 271.78 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f98cbe4-5bf5-4269-9eec-d253d87e0548")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5925,6 +6929,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117")
+		(at 143.51 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afee11ea-67f6-4300-9aeb-c35ed64c29d9")
+		(property "Reference" "U2"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 143.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 146.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a35d6e57-311d-45cf-bac5-29a8ca97b615")
+		)
+		(pin "1"
+			(uuid "9071cd5c-452b-44d0-9542-30d431c93799")
+		)
+		(pin "3"
+			(uuid "70a2fa01-f700-40b3-810d-f258c22f188d")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 36.83 166.37 90)
 		(unit 1)
@@ -5984,6 +7059,71 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb760efa-5c7d-423c-a547-cba8bad7a753")
+		(property "Reference" "#PWR010"
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 271.78 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3f0854f-84e9-48e6-82cb-e204a61fe2ee")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6191,71 +7331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 149.86 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca01bb5b-b8f7-4f7e-9ee7-14d889f2a7d2")
-		(property "Reference" "#PWR018"
-			(at 149.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 149.86 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 149.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e4c8737-e25e-432c-9185-09a36d2e9b9d")
-		)
-		(instances
-			(project "4phaseshift"
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 231.14 99.06 0)
 		(unit 1)
@@ -6316,6 +7391,75 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00d0d10-13f3-4df2-a342-edeac650249c")
+		(property "Reference" "C9"
+			(at 178.054 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 178.054 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e24e6dc-ef98-4e0a-a2f9-af04ea23e6f8")
+		)
+		(pin "1"
+			(uuid "9a4eb649-c26e-46e9-a173-72c7976ae1b4")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6473,6 +7617,76 @@
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3bd9289-8120-4817-b770-81d326af406f")
+		(property "Reference" "R24"
+			(at 157.48 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 157.48 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 155.956 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a28e35c-9db1-4835-a02c-cfd11b765af2")
+		)
+		(pin "1"
+			(uuid "7defb373-f1eb-4737-bec0-07c5183b7e94")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6822,6 +8036,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d0729b-c263-40ae-9726-bfc3d738c8e6")
+		(property "Reference" "#PWR019"
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 271.78 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b4cecf3-a2c1-486c-b306-f9ec572cb242")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 165.1 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b9d031-a0e2-4c9d-802f-499a5bd9737e")
+		(property "Reference" "C7"
+			(at 167.64 166.3635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 167.64 168.9035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baa422e8-3332-49da-b8da-679a11e80598")
+		)
+		(pin "1"
+			(uuid "f7d6dd9d-9ef1-40e0-a080-6a2ff30acb0e")
+		)
+		(instances
+			(project "4phaseshift"
+				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 46.99 180)
 		(unit 1)
@@ -7139,6 +8488,16 @@
 				(justify left)
 			)
 		)
+		(pin "LocalVCC" input
+			(at 271.78 59.69 90)
+			(uuid "34329d25-7ac2-4c44-90d9-813944ebcc35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
@@ -7211,6 +8570,16 @@
 				(justify left)
 			)
 		)
+		(pin "LocalVCC" input
+			(at 273.05 144.78 90)
+			(uuid "f018e9e8-1e4a-43c7-8765-1a3fa3b99d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
@@ -7271,6 +8640,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LocalVCC" input
+			(at 124.46 68.58 90)
+			(uuid "89f7fd76-1118-45a1-bc51-61b7979a7bf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -7345,6 +8724,16 @@
 				(justify left)
 			)
 		)
+		(pin "LocalVCC" input
+			(at 271.78 120.65 90)
+			(uuid "47d00471-7a5e-4a5c-a497-aad6f42df8db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "4phaseshift"
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07"
@@ -7415,6 +8804,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LocalVCC" input
+			(at 271.78 83.82 90)
+			(uuid "166a26dc-0824-43e5-9bf7-0a8bce4d1e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

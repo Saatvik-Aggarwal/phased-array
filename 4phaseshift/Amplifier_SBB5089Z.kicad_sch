@@ -668,131 +668,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 148.59 68.58)
@@ -982,6 +857,17 @@
 		)
 		(uuid "fde5f436-700d-43b3-9f26-ccc11c73e778")
 	)
+	(hierarchical_label "LocalVCC"
+		(shape input)
+		(at 105.41 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b0424cb-8c2f-4b35-82c4-a99009ed25de")
+	)
 	(hierarchical_label "RF_OUT"
 		(shape output)
 		(at 137.16 68.58 180)
@@ -1085,89 +971,6 @@
 				)
 				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd/4dede0cc-0119-469c-af66-dbb2b5279564"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 105.41 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c3e82fc-8610-4d2d-83b5-08e94d04a5ce")
-		(property "Reference" "#PWR031"
-			(at 105.41 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 105.41 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ec42294-a8cb-411f-9584-2f656de96f00")
-		)
-		(instances
-			(project "4phaseshift"
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/6d1f04f2-296f-4704-a286-2d8472106751"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/0761c0aa-3b3e-46c8-a98d-e63cbedea3c2/4dede0cc-0119-469c-af66-dbb2b5279564"
-					(reference "#PWR067")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/3ad94b1c-09d6-4af4-bf9a-a8e5307255e0/4dede0cc-0119-469c-af66-dbb2b5279564"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/770cf7ea-21e5-4e4f-888f-d4df42e95689/4dede0cc-0119-469c-af66-dbb2b5279564"
-					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/d1cb1e8f-75d5-4349-ba9b-8e5b2b2c8d07/d2ba059c-4ec6-43a6-92f4-6c94c9dde8dd/4dede0cc-0119-469c-af66-dbb2b5279564"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
