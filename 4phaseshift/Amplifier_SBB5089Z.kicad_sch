@@ -1673,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Value" "82n"
+		(property "Value" "20n"
 			(at 115.57 55.88 90)
 			(effects
 				(font
