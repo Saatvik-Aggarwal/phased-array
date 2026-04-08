@@ -527,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "rxAntennaGerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -686,7 +686,7 @@
         "uuid": "42db0dc1-a69a-49cc-9729-af0c3666b636"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP1",
     "variants": []
   },
   "sheets": [
